@@ -50,6 +50,9 @@ end
 
 def winner(board)
   wincomb = won?(board)
+  if wincomb = false
+    return nil
+
   player = board[wincomb[0]]
 
   if player != " "
