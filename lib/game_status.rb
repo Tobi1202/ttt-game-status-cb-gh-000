@@ -29,3 +29,4 @@ def full?(board)
 if cell == " "
   return false
   }
+end
