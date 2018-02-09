@@ -52,5 +52,5 @@ def winner(board)
   wincomb = won?(board)
 if board[wincomb[1]] != " "
   return board[wincomb[1]]
-
+end
 end
