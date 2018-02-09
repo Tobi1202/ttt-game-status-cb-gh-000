@@ -18,8 +18,7 @@ WIN_COMBINATIONS = [
 def won?(board)
   WIN_COMBINATIONS.each {|combo|
     combo.each{|cell|
-
-        if cell =
+        if board[cell]
     }
 
   }
