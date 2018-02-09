@@ -54,8 +54,7 @@ def winner(board)
 
   if player != " "
     return player
-
   else
-  return nil
+    return nil
   end
 end
