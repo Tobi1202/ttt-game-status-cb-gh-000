@@ -18,6 +18,7 @@ WIN_COMBINATIONS = [
 def won?(board)
   WIN_COMBINATIONS.each{|combo|
     if combo[0] == combo[1] && combo[0] == combo[2]
+      return combo
   }
 
 end
