@@ -53,6 +53,6 @@ def winner(board)
   if wincomb = false || (board[wincomb[0]] != "X" && board[wincomb[0]] != "O")
     return nil
   else
-    return board[wincomb[0]]
+    return board[wincomb[2]]
   end
 end
