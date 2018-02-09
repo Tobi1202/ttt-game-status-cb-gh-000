@@ -49,5 +49,6 @@ return true
 end
 
 def winner(board)
-wincomb = won?(board)
+  wincomb = won?(board)
+
 end
