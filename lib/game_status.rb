@@ -42,22 +42,17 @@ def draw?(board)
 end
 
 def over?(board)
-if !draw?(board) && !won?(board) && !full?(board)
-return false
-end
-return true
+  if !draw?(board) && !won?(board) && !full?(board)
+    return false
+  end
+  return true
 end
 
 def winner(board)
   wincomb = won?(board)
   if wincomb = false
     return nil
-
-  player = board[wincomb[0]]
-
-  if player != " "
-     player
   else
-   nil
+    return board[wincomb[0]]
   end
 end
