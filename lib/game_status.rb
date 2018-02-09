@@ -38,5 +38,5 @@ def draw?(board)
     return false
   end
 
-  return false
+  return true
 end
