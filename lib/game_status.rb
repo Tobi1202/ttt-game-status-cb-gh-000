@@ -27,4 +27,5 @@ end
 def full?(board)
   board.each{|cell|
 if cell == " "
+  return false
   }
