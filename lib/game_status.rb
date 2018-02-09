@@ -47,3 +47,7 @@ return false
 end
 return true
 end
+
+def winner(board)
+
+  
