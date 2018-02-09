@@ -50,8 +50,8 @@ end
 
 def winner(board)
   wincomb = won?(board)
-if board[wincomb[1]] == " "
-  return board[wincomb[1]]
-end
-return nil
+  if board[wincomb[1]] == " "
+    return board[wincomb[1]]
+  end
+  return nil
 end
