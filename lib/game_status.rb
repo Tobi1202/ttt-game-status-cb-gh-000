@@ -53,6 +53,6 @@ def winner(board)
   if wincomb = false
     return nil
   else
-    return board[wincomb[3]]
+    return board[wincomb[2]]
   end
 end
