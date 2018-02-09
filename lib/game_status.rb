@@ -25,4 +25,6 @@ def won?(board)
 end
 
 def full?(board)
-  board.each{|cell|}
+  board.each{|cell|
+if cell == " "
+  }
