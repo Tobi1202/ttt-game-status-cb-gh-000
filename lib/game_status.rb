@@ -43,5 +43,8 @@ end
 
 def over?(board)
 if !draw?(board) && !won(board)
+return false
+end
+return true
 
 end
