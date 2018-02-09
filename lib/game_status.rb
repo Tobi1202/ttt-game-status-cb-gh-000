@@ -53,5 +53,5 @@ def winner(board)
 if board[wincomb[1]] == " "
   return nil
 end
-return 
+returnboard[wincomb[1]]
 end
