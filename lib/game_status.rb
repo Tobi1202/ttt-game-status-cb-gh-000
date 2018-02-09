@@ -46,5 +46,4 @@ if !draw?(board) && !won?(board) && !full?(board)
 return false
 end
 return true
-
 end
