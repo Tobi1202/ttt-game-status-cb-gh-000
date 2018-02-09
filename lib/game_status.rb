@@ -52,7 +52,7 @@ def winner(board)
   wincomb = won?(board)
   player = board[wincomb[0]]
   if player != " "
-    return board[wincomb[1]]
+    return player
   end
 
   return nil
