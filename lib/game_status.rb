@@ -19,7 +19,7 @@ def won?(board)
   WIN_COMBINATIONS.each {|combo|
     combo.each{|cell|
         player = cell[0]
-        if board[cell]
+        if board[cell] == player
     }
 
   }
