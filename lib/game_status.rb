@@ -51,10 +51,12 @@ end
 def winner(board)
   wincomb = won?(board)
   player = board[wincomb[0]]
+
   if player != " "
     return player
   end
-else
+
+  else
   return nil
-end
+  end
 end
